@@ -31,10 +31,10 @@
 # Introduction to GIS with QGIS
 
 Stacey Maples – Geospatial Manager – Stanford Geospatial Center –
-<stacemaples@stanford.edu>
+[stacemaples@stanford.edu](mailto:stacemaples@stanford.edu)
 
 David Medeiros – GIS Instruction & Support Specialist - Stanford
-Geospatial Center - <davidmed@stanford.edu>
+Geospatial Center - [davidmed@stanford.edu](mailto:davidmed@stanford.edu)
 
 This introductory session will focus upon the fundamental concepts and
 skills needed to begin using Geographic Information Systems software for
@@ -42,31 +42,24 @@ the exploration and analysis of spatial data using the ArcGIS platform. 
 Topics will include:
 
 -   What is GIS?
-
 -   Spatial Data Models and Formats
-
 -   Projections and Coordinate Systems
-
 -   Basic Data Management
-
 -   The ArcMap User Interface
-
 -   Simple Analysis using Visualization.
 
 ## GIS Resources
 
-
-Stanford Geospatial Center website - <http://gis.stanford.edu/>
+Stanford Geospatial Center website - [http://gis.stanford.edu/](http://gis.stanford.edu/)
 
 Stanford GIS Listserv -
-<https://mailman.stanford.edu/mailman/listinfo/stanfordgis>
+[https://mailman.stanford.edu/mailman/listinfo/stanfordgis](https://mailman.stanford.edu/mailman/listinfo/stanfordgis)
 
-QGIS 2.8 Help - <http://docs.qgis.org/2.8/en/docs/user_manual/>
+QGIS 2.8 Help - [http://docs.qgis.org/2.8/en/docs/user_manual/](http://docs.qgis.org/2.8/en/docs/user_manual/)
 
 ## Download Tutorial Data
 
-
-1.  In a browser, go to <https://stanford.box.com/SGCIntroGIS> and click
+1.  In a browser, go to [https://stanford.box.com/SGCIntroGIS](https://stanford.box.com/SGCIntroGIS) and click
     on the drop-down arrow to the right of each folder to download
     individual datasets. Save the Dataset to your Desktop.
 
@@ -75,7 +68,6 @@ QGIS 2.8 Help - <http://docs.qgis.org/2.8/en/docs/user_manual/>
 3.  Accept all defaults to extract the data file.
 
 ## Open QGIS and Explore the User Interface
-
 
 QGIS (Quantum GIS) is a freen and open – source desktop geographic
 information system (GIS) applocation. The first thing we want to do is
@@ -87,8 +79,7 @@ information system (GIS) applocation. The first thing we want to do is
 2.  You should be presented with the **New Document**. You should then
     be presented with something like the interface you see below:
 
-![](media/image1.png){width="7.327083333333333in"
-height="5.465271216097988in"}
+	![](ImagesForHandout/img01.png)
 
 ### The Basic Components of the QGIS Interface
 
@@ -130,7 +121,6 @@ displayed.
 -   **Manage Layers –** This bar is to add layers (vector, raster, new
     shapefile layer)
 
-![](media/image2.png){width="2.08125in" height="3.5875in"}
 
 ### Interacting with Tabbed Windows
 
@@ -138,14 +128,16 @@ displayed.
     dotted line and drag the window to the bottom, below the **Layers**
     tabbed window.
 
+	![](ImagesForHandout/img02.png)
+
 ### Explore the Browser
 
-1.  ![](media/image3.png){width="3.0in"
-    height="3.2083333333333335in"}Using the **Window Explorer**, browse
+1.  		Using the **Window Explorer**, browse
     to the **\\Introduction to ArcGIS\\EX01\_World folder**, where you
     extracted the EX01\_World.zip file and browse into the
     **EX01\_World\\Data** Folder.
 
+	![](ImagesForHandout/img03.png)
 
 Note that, while there are 23 files in this folder, there are actually
 only 3 Shapefiles and a CSV Table here, as far as QGIS is concerned.
@@ -158,20 +150,21 @@ the Shapefile, for example, if you wish to rename or move a shapefile,
 you must move or rename ALL of its component files in exactly the same
 way, or you can corrupt the shapefile.
 
-1.  **Return to QGIS** and use the **Browser Tabbed Window** to expand
+2.  **Return to QGIS** and use the **Browser Tabbed Window** to expand
     the Home Folder.
 
-2.  **Expand** the **Home** and **Desktop** folder.
+3.  **Expand** the **Home** and **Desktop** folder.
 
-3.  **Expand** the **Introduction to ArcGIS**, and then **expand** the
+4.  **Expand** the **Introduction to ArcGIS**, and then **expand** the
     **Workshop Data Folder**.
 
-![](media/image4.png){width="2.470833333333333in"
-height="0.9819444444444444in"}Note that the Shapefile is much simplified
+Note that the Shapefile is much simplified
 in the Browser Window. Although the Shapefile is still made up of
 several files, QGIS seems to know that it’s not a good idea to make you
 deal with all that, so it simplifies things by only showing you the .shp
 file.
+
+![](ImagesForHandout/img04.png)
 
 ## Finally, let’s open a Map Document!
 
