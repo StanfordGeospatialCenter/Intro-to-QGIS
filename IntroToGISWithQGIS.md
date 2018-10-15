@@ -520,26 +520,26 @@ features and. Because there are so many visible features in this layer,
 this creates an unreadable labeling scheme. To remedy this, we will
 limit labeling to the largest cities in the Major Cities Layer.
 
-1.  **Right-click** on the **Major\_Cities**
+4.  **Right-click** on the **Major\_Cities**
     **Layer** and select **Properties**. Go to the **Labels Tab** and
     **Click** on **Rendering**.
 
-2.  **Click** on the **Show Label** icon and **Select Edit** to open the
+5.  **Click** on the **Show Label** icon and **Select Edit** to open the
     Expression string builder window.
 
  ![](ImagesForHandout/image025.jpg)
 
-3.  **Expand** Fields and Values and **Double Click** on POP\_RANK.
+6.  **Expand** Fields and Values and **Double Click** on POP\_RANK.
 
-4.  In the **SQL Query** window, create a **SELECT argument** as
+7.  In the **SQL Query** window, create a **SELECT argument** as
     follows:\
     **“POP\_RANK”=1**
 
 ![](ImagesForHandout/image026.jpg)
 
-5.  **Click OK**
+8.  **Click OK**
 
-6.  **Go** to the TEXT Tab and c**hange** the **Label Size** to **7
+9.  **Go** to the TEXT Tab and c**hange** the **Label Size** to **7
     points** and **Click OK** to apply this labeling scheme to the Data
     Frame.
 
@@ -563,25 +563,25 @@ limit labeling to the largest cities in the Major Cities Layer.
 > and does not alter the dataset being referenced, only our view of it
 > in QGIS.
 
-1.  **Close the World\_Countries** Attribute Table.
+2.  **Close the World\_Countries** Attribute Table.
 
-2.  **Right-click** the **World\_ Countries.dbf** and open the
+3.  **Right-click** the **World\_ Countries.dbf** and open the
     **Properties Window**.
 
-3.  **Go** to the General Tab and **Click** on the **Query Builder
+4.  **Go** to the General Tab and **Click** on the **Query Builder
     button** at the bottom right**. **
 
 	![](ImagesForHandout/image027.jpg)
 
-4. On the Query Builder window create an
+5. On the Query Builder window create an
     **Expression** as follows:\
     **"POP2007" &lt; &gt; -99999**
 
 	![](ImagesForHandout/image028.jpg)
 
-5.  **Click OK twice** to **apply** the **Definition Query**.
+6.  **Click OK twice** to **apply** the **Definition Query**.
 
-6.  **Click the Refresh button.** **Open**
+7.  **Click the Refresh button.** **Open**
     the **Attribute Table** for the **World\_Countries Layer** *and
     notice how the POP2007 Field no longer contains records with -99999
     as a value**. ***
@@ -607,23 +607,23 @@ the necessary population attribute.
 > values are identical across the two datasets, we can use this
 > attribute as the “**Key Field**” for our table join.
 
-1.  **Close** the **Attribute Table** for the **World\_Countries
+4.  **Close** the **Attribute Table** for the **World\_Countries
     Layer.**
 
-2.  **Right Click** on the
+5.  **Right Click** on the
     **World\_Countries Layer** and **Select Properties**
 
-3.  **Go** to the **Joins Tab** and **Click the Green Plus Sign** to
+6.  **Go** to the **Joins Tab** and **Click the Green Plus Sign** to
     open the **Add vector join** window.
 
-4.  **Select** **World\_Population\_2007** as the **Join layer** and
+7.  **Select** **World\_Population\_2007** as the **Join layer** and
     **FIPS\_CNTRY** for the **Join** & **Target** fields.
 
 	![](ImagesForHandout/image029.jpg)
 
-5.  **Click OK** to close the Window and **Apply** to create the Join.
+8.  **Click OK** to close the Window and **Apply** to create the Join.
 
-6.  **Close** the **Layer Properties Window** and **Open** the
+9.  **Close** the **Layer Properties Window** and **Open** the
     **Attribute Table** for the **World\_Countries Layer** and note the
     **POP2007 Attribute (along with all other attributes from the
     World\_Population\_2007 table). **
@@ -744,7 +744,7 @@ Legend
 > *Note that the change you have made to the name of the Layer is also
 > reflected in the Legend*.
 
-1.  Make changes to the other Text Elements of your Layers so that your
+9.  Make changes to the other Text Elements of your Layers so that your
     Legend contains properly formatted and reasonable text descriptions
     and labels.
 
