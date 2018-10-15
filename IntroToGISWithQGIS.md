@@ -75,11 +75,10 @@ information system (GIS) applocation. The first thing we want to do is
 
 1.  In Windows, go to the Programs menu and find the QGIS Pisa, then
     select QGIS Desktop 2.10.1
-
 2.  You should be presented with the **New Document**. You should then
     be presented with something like the interface you see below:
 
-	![](ImagesForHandout/image001.png)
+ ![](ImagesForHandout/image001.png)
 
 ### The Basic Components of the QGIS Interface
 
@@ -121,7 +120,6 @@ displayed.
 -   **Manage Layers –** This bar is to add layers (vector, raster, new
     shapefile layer)
 
-
 ### Interacting with Tabbed Windows
 
 1.  Move your cursor over the **Browser** dotted line. Click on the
@@ -132,7 +130,7 @@ displayed.
 
 ### Explore the Browser
 
-1.  		Using the **Window Explorer**, browse
+1.  Using the **Window Explorer**, browse
     to the **\\Introduction to ArcGIS\\EX01\_World folder**, where you
     extracted the EX01\_World.zip file and browse into the
     **EX01\_World\\Data** Folder.
@@ -152,9 +150,7 @@ way, or you can corrupt the shapefile.
 
 2.  **Return to QGIS** and use the **Browser Tabbed Window** to expand
     the Home Folder.
-
 3.  **Expand** the **Home** and **Desktop** folder.
-
 4.  **Expand** the **Introduction to ArcGIS**, and then **expand** the
     **Workshop Data Folder**.
 
@@ -168,28 +164,25 @@ file.
 
 ## Finally, let’s open a Map Document!
 
-
 You should, in addition to a Data Folder full of shapefiles, have a Map Document in your **\\Introduction to
 ArcGIS\\EX01\_World \\EX01\_World Folder** called… EX01\_World.qgs. The
 icon looks like this:
 
-1.  **Drag** the **EX01\_World Map Document** into the **Map Canvas** to
-    open it.
+1.  **Drag** the **EX01\_World Map Document** into the **Map Canvas** to open it.
 
 ### But Wait!
 
 Has something gone awry? Do you see something that looks like this?
+
+ ![](ImagesForHandout/image005.jpg)
 
 You are experiencing the dreaded
 “**Absolute Paths**” problem, endemic to GIS Softwares. To fix this
 issue, do the following:
 
 1.  **Press shift and click** to select all the layers.
-
 2.  **Click the Browse** and look for the **Data\_QGIS** of the tutorial
     dataset and **select the folder**. Click OK.
-
- ![](ImagesForHandout/image005.jpg)
 
 You should find that (because they are all
 in the same ‘**workspace’**) all of your layers have been repaired and
@@ -208,8 +201,7 @@ What you don’t see is that **CSV Table**. **Look** for the
 **World\_Population\_2007** on the **Browser Window**, select it and
 drag it to the **Layers Window. **
 
-Note that the **World\_Population\_2007** table has been added to the
-Layers.
+Note that the **World\_Population\_2007** table has been added to the Layers.
 
 Notice how Asia almost disappears. **Right-Click** on the Lat\_Long\_30
 shapefile. Select **Properties** and go to the **General Tab.** Under
@@ -228,12 +220,9 @@ using World Azimuthal Distance.
     Properties…**   
 
 	![](ImagesForHandout/image009.jpg)
-
 2.  **Click** on the **CRS Tab**. **Filter and Select** “EPSG:4326 (WGS
     84)”
-
 3.  **Click** OK
-
 4.  **Click Save **
 
 What you have just done is reassigned the coordinate system of the **Map
@@ -253,13 +242,10 @@ Where are the cities?
 
 1.  **Right Click** on the Cities Layer and **Zoom to Layer.** Notice
     how the cities are displayed.
-
 2.  **Right click** on the Cities Layer and select **Layer Properties.**
     Notice how the coordinate system is not WGS. Change the coordinate
     system to **“**Project CRS EPSG:4326 (WGS 84)”
-
 3.  **Click** OK
-
 4.  **Click Save **
 
 ## Explore Navigations Tools and Visibility in Data Frames
@@ -339,17 +325,13 @@ One of the most useful navigation tools is the ability to create
 
 1.  **Right Click** on any grey area and
     select **Spatial Bookmarks.**
-
 2.  Using the **Zoom Tools** on the **Tools Toolbar**, **Zoom** your
     **Data Frame** view to the **European/Asian Landmass**.
-
 3.  Go to the Spatial Bookmark Tabbed
     Window and **Click on Add Bookmark** and name it **Europe & Asia**
+
  ![](ImagesForHandout/image013.png)
-
-4.  **Click** on the **Zoom Full
-    button**.
-
+4.  **Click** on the **Zoom Full button**.
 5.  **Go** to your **Spatial Bookmark** Window. **Select** “Europe &
     Asia” and **click** the **Zoom to bookmark**. You can also zoom to a
     bookmark by double- clicking on it.
@@ -374,9 +356,6 @@ determines the order of display in your Map Canvas
 
 ## Working with Layers & Their Properties
 
-
-
-
 ### Layer Visibility
 
 The Table of Contents also controls Layer Visibility. You can toggle the
@@ -386,6 +365,7 @@ Window.
 1.  Use the **Visibility Checkbox** next to the **Lat\_Long\_30** Layer
     to **turn off** the **visibility** of the layer and reveal the other
     layers again.
+
 	![](ImagesForHandout/image016.jpg)
 
 ### Examining and Selecting by Attributes
@@ -400,17 +380,13 @@ the data necessary to do this exists in our dataset.
 
 1.  **Right-Click** on the **Cities Layer** and select “**Open Attribute
     Table**” to open the **Attribute Table** of the layer.
-
 2.  **Click and Drag** the resulting
     **Table Window** to the **bottom** of the **Map Document** and
     expand the entire width of the Window.
-
 3.  **Scroll** to the right until you can see the **POP, POP\_RANK** and
     **POP\_CLASS Attribute Fields**
-
 4.  **Click** on the **POP Field Header** and select **Sort Descending**
     (Arrow Down)**.**
-
 5.  **Scroll** down through the **Attribute table** to examine the
     relationship between these three variables.
 
@@ -425,19 +401,14 @@ simplicity.
 1.  On the Upper left corner of the
     Attribute Table, **find** the **Select by Expression button** and
     **click** on it.
-
 2.  **Expand** Fields and Values, and **Double-click** on the
     “**POP\_RANK**”
-
 3.  **Type &lt;=** **2**
-
 4.  **Click** the **Select button and and Close.**
 
  ![](ImagesForHandout/image018.jpg)
-
 5.  **Scroll** through the Attribute Table and note the records that are
     selected.
-
 6.  You can **observe that the selection from the Attribute Table is
     also reflected in the Map Canvas. **
 
@@ -449,16 +420,12 @@ into QGIS as a new Layer.
 
 1.  **Right-click** on the **Cities
     Layer** and select **Save As. **
-
 2.  **Check** Save only selected features.
-
 3.  **Click** on the **Browse Button** and Browse into the **Data
     Folder** to save the new shapefile as **Major\_Cities.shp. **
 
  ![](ImagesForHandout/image020.jpg) ![](ImagesForHandout/image019.jpg)
-
 4.  **Click Save** and **OK**.
-
 5.  **Right-click** on the **original Cities Layer** and select
     **Remove**.
 
@@ -469,26 +436,17 @@ distinguish them from one another, visually.
 
 1.  **Right-Click** on the new
     **Major\_Cities Layer** and **Open** its **Properties**
-
 2.  **Click** on the **Style** **Tab** and **Select Categorized **
-
 3.  On **Column,** select **POP\_CLASS **
-
 4.  Click on **Classify**
-
 5.  **Double click** the point symbol.
-
 6.  In the resulting Symbol Selector, select Color Black and change Size
     to 1 for “**1,000,000 to 4,999,999**” item. Click OK
-
 7. Using the same method, change the
     symbol for the “**5,000,000 and greater**” item to Color Black with
     a size of 3 **points**.
-
 8.  **Unchecked** the point with no value.
-
 9.  **Click OK** to close the Layer Properties Window.
-
 10. **Click Save**
 
  ![](ImagesForHandout/image023.png)
@@ -507,9 +465,7 @@ POP\_RANK value of 1.
 
 1.  **Right-Click** on the **Major\_Cities Layer** and select **Layer
     Properties**.
-
 2.  **Click** on the **Labels Tab.**
-
 3.  **Check** the **Label this layer with** to enable options and
     **Select** CITY\_NAME and Click **Ok.**
 
@@ -523,22 +479,17 @@ limit labeling to the largest cities in the Major Cities Layer.
 4.  **Right-click** on the **Major\_Cities**
     **Layer** and select **Properties**. Go to the **Labels Tab** and
     **Click** on **Rendering**.
-
 5.  **Click** on the **Show Label** icon and **Select Edit** to open the
     Expression string builder window.
 
  ![](ImagesForHandout/image025.jpg)
-
 6.  **Expand** Fields and Values and **Double Click** on POP\_RANK.
-
 7.  In the **SQL Query** window, create a **SELECT argument** as
-    follows:\
+    follows:
     **“POP\_RANK”=1**
 
-![](ImagesForHandout/image026.jpg)
-
+ ![](ImagesForHandout/image026.jpg)
 8.  **Click OK**
-
 9.  **Go** to the TEXT Tab and c**hange** the **Label Size** to **7
     points** and **Click OK** to apply this labeling scheme to the Data
     Frame.
@@ -548,43 +499,38 @@ limit labeling to the largest cities in the Major Cities Layer.
 1.  **Right-click** the **World\_ Countries** **dbf** and open the
     **Attribute Table.**
 
-> You may have noticed that many of the features in the
-> World\_Population dbf file had values of **-99999** for the POP2007
-> attribute. This normally indicates **NODATA** for the particular
-> feature in demographic datasets. In this case, we would like to
-> exclude this value from our Map Document. We could use the method used
-> to subset the Cities layer earlier in the tutorial, but this time we
-> will use another method called Definition Query. Definition Queries
-> “define” a dataset, based upon a SQL Query, like the ones we have used
-> to create the selection by attributes and the labeling class. In this
-> case, the Definition Query “defines” a subset of the data layer that
-> QGIS treats as the entirety of the dataset. It does not, however,
-> require creating a new dataset (preventing redundancy in data storage)
-> and does not alter the dataset being referenced, only our view of it
-> in QGIS.
+You may have noticed that many of the features in the
+World\_Population dbf file had values of **-99999** for the POP2007
+attribute. This normally indicates **NODATA** for the particular
+feature in demographic datasets. In this case, we would like to
+exclude this value from our Map Document. We could use the method used
+to subset the Cities layer earlier in the tutorial, but this time we
+will use another method called Definition Query. Definition Queries
+“define” a dataset, based upon a SQL Query, like the ones we have used
+to create the selection by attributes and the labeling class. In this
+case, the Definition Query “defines” a subset of the data layer that
+QGIS treats as the entirety of the dataset. It does not, however,
+require creating a new dataset (preventing redundancy in data storage)
+and does not alter the dataset being referenced, only our view of it
+in QGIS.
 
 2.  **Close the World\_Countries** Attribute Table.
-
 3.  **Right-click** the **World\_ Countries.dbf** and open the
     **Properties Window**.
-
 4.  **Go** to the General Tab and **Click** on the **Query Builder
     button** at the bottom right**. **
 
 	![](ImagesForHandout/image027.jpg)
-
 5. On the Query Builder window create an
-    **Expression** as follows:\
+    **Expression** as follows:
     **"POP2007" &lt; &gt; -99999**
 
 	![](ImagesForHandout/image028.jpg)
-
 6.  **Click OK twice** to **apply** the **Definition Query**.
-
 7.  **Click the Refresh button.** **Open**
     the **Attribute Table** for the **World\_Countries Layer** *and
     notice how the POP2007 Field no longer contains records with -99999
-    as a value**. ***
+    as a value.*
 
 ### Join a Table to a Layer
 
@@ -596,41 +542,31 @@ the necessary population attribute.
 
 1.  **Right-click** on the **World\_Population\_2007 Table** and select
     **Open**.
-
 2.  Scroll through the attributes and note the **FIPS\_CNTRY** Attribute
     Field.
-
 3.  **Open** the **Attribute Table** for the **World\_Countries Layer**
     and note that it also has a **FIPS\_CNTRY** Attribute Field.
 
-> Since this attribute exists in both of these attribute tables, and its
-> values are identical across the two datasets, we can use this
-> attribute as the “**Key Field**” for our table join.
+Since this attribute exists in both of these attribute tables, and its
+values are identical across the two datasets, we can use this
+attribute as the “**Key Field**” for our table join.
 
 4.  **Close** the **Attribute Table** for the **World\_Countries
     Layer.**
-
 5.  **Right Click** on the
     **World\_Countries Layer** and **Select Properties**
-
 6.  **Go** to the **Joins Tab** and **Click the Green Plus Sign** to
     open the **Add vector join** window.
-
 7.  **Select** **World\_Population\_2007** as the **Join layer** and
     **FIPS\_CNTRY** for the **Join** & **Target** fields.
 
 	![](ImagesForHandout/image029.jpg)
-
 8.  **Click OK** to close the Window and **Apply** to create the Join.
-
 9.  **Close** the **Layer Properties Window** and **Open** the
     **Attribute Table** for the **World\_Countries Layer** and note the
     **POP2007 Attribute (along with all other attributes from the
-    World\_Population\_2007 table). **
-
-    Some values are NULL because they were dropped
-
-    when we perform the definition query.
+    World\_Population\_2007 table). ** Some values are NULL because they were
+		dropped when we perform the definition query.
 
 #### Symbolize Countries by Population Density
 
@@ -641,23 +577,17 @@ by the area of the features to create the density value on-the-fly.
 
 1.  **Open** the **Properties** for the
     **World\_Countries Layer** and click on the **Style Tab**.
-
 2.  **Select** **Graduated** and **click** the Expression Dialog button.
-
 3.  **Expand** the **Fields and Values** and **double click** on the
     fields to **write** the normalization expression:
     "World\_Population\_2007\_POP2007" / "SQMI" and **Click OK. **
 
  ![](ImagesForHandout/image030.jpg)
-
 4.  **Select Quantiles** as the classification mode and with **5
     Classes**.
-
 5.  **Click OK**.
-
 6.  **Select** a **Color Ramp** and **Click OK** to **apply** the
     **Symbology**.
-
 7.  **Uncheck** the Lat\_Long\_30 shapefile
 
 *Note: When selecting your color ramp, be careful about selecting
@@ -666,9 +596,6 @@ your map to “read well” in grayscale. In some of the 2-3 color ramps,
 the **Intensity value** of the colors at each end of the spectrum is the
 same, so that they produce identical grayscale values when converted,
 Xeroxed or printed in black & white.*
-
-
-------------------------------------------------------------------------------------
 
 ## Print Composer
 
@@ -680,23 +607,19 @@ Xeroxed or printed in black & white.*
 
  ![](ImagesForHandout/image031.jpg)
 
-1.  **Click** the Add a new map icon
-
-    and place the mouse pointer over the blank sheet. Notice a crosshair
+1.  **Click** the Add a new map icon and place the mouse pointer over the blank sheet. Notice a crosshair
     pointer. **Click and hold** on the left corner of the page and
     extend to the bottom right to draw a bounding box.
 
 The Page Orientation and Size can be changed using the composition tab.
 
-![](ImagesForHandout/image032.jpg)
+ ![](ImagesForHandout/image032.jpg)
 
 1.  **Click** on the **Map Box** to select
     the item.
-
 2.  **Go** to the **Item Properties Tab** and expand **Position and
     Size.** Set the **Map Size** as **10 in wide by 7 in (254 by
     178 mm)**.
-
 3.  **Click** on the **Frame Tab** and set
     the **Border weight** to **.50mm points**.
 
@@ -704,86 +627,63 @@ The Page Orientation and Size can be changed using the composition tab.
 
 4.  On the **QGIS Map Canvas**, go to **Bookmarks** and zoom to your
     **Europe & Asia** bookmark.
-
 5.  Go to the map composer &gt; Item
     Properties &gt; Extents and **Click** View extent in map canvas. To
     pan inside the map element **click** the **Move Item content** icon
     and pan inside the map.
-
 6.  **Check** the Background option and select a light blue as color
     background
 
 ### Adding Map Elements
 
-
-Legend
+#### Legend
 
 1.  **Click the Add new legend** and draw
     a bounding box inside the map.
-
 2.  On the Legend items **click the Filter by content** icon.
-
 3.  Expand the Spacing Tab and set the box space to 5.0 mm.
-
 4.  Give the **Legend** a **Border** of
     .50 mm and **Background** (white is a good choice).
-
 5.  **Click Next&gt;** to **accept all
     remaining default settings** and insert the Legend.
-
 6.  Use the **Select move item tool** to **reposition** the **Legend**
-
 7.  **Go** back to the Map Document and **Open** the layer properties.
     **Rename the layer** **Major\_Cities to** “**Major Cities**”
     removing the underscore, and **click Ok** to commit the change.
 
  ![](ImagesForHandout/image034.jpg)
-
 8.  **Go** to the map composer and click the **Refresh** button.
 
-> *Note that the change you have made to the name of the Layer is also
-> reflected in the Legend*.
+*Note that the change you have made to the name of the Layer is also
+reflected in the Legend*.
 
 9.  Make changes to the other Text Elements of your Layers so that your
     Legend contains properly formatted and reasonable text descriptions
     and labels.
 
-Scale Bar
+#### Scale Bar
 
 1.  **Click** the Add new bar scale tool
-
 2.  On the Item properties change the **Style** to Line Ticks Up.
-
 3.  Change the Units to Feet.
-
 4.  Set the **Segments** left 0 and right 2
-
 5.  Use the **Select Elements Tool** to **resize** and **reposition**
     the **Scale Bar**.
 
-
-Neat Line
+#### Neat Line
 
 1.  **Click** the Add figure and **select** add a rectangle.
-
 2.  Be sure to draw it around all elements.
-
 3.  Go to its Item properties and change the style to transparent fill
     and border width 0.50.
-
 4.  **Click OK** to add the **neatline**.
 
 # Exporting Your Map
 
-
 1.  **Save your Map Composer**.
-
 2.  **Click** on the **Export as Image Button.**
-
 3.  **Save as type** to **PNG(\*.png)** and name it **EX01\_World**
-
 4.  **Click Save**.
-
 5.  **Browse** to the Workshop Folder and double click on the
     **EX01\_World.png** file to view it in the default image viewer.
 
