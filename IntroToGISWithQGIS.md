@@ -336,7 +336,7 @@ One of the most useful navigation tools is the ability to create
     Asia” and **click** the **Zoom to bookmark**. You can also zoom to a
     bookmark by double- clicking on it.
 
- ![](ImagesForHandout/image014.gif)
+ ![](ImagesForHandout/image014.jpg)
 
 Bookmarks can even be easily shared or moved from one using the
 Import/Export tool Bookmarks, too. The bookmarks are saved as xml files
@@ -377,6 +377,8 @@ this layer is a bit overpopulated for our purposes. Let’s say we are
 interested in visualizing the global distribution of cities with
 populations greater than or equal to 1 million. First we need to see if
 the data necessary to do this exists in our dataset.
+
+  ![](ImagesForHandout/image017.png)
 
 1.  **Right-Click** on the **Cities Layer** and select “**Open Attribute
     Table**” to open the **Attribute Table** of the layer.
@@ -439,9 +441,13 @@ distinguish them from one another, visually.
 2.  **Click** on the **Style** **Tab** and **Select Categorized **
 3.  On **Column,** select **POP\_CLASS **
 4.  Click on **Classify**
+
+ ![](ImagesForHandout/image021.png)
 5.  **Double click** the point symbol.
 6.  In the resulting Symbol Selector, select Color Black and change Size
     to 1 for “**1,000,000 to 4,999,999**” item. Click OK
+
+ ![](ImagesForHandout/image022.png)
 7. Using the same method, change the
     symbol for the “**5,000,000 and greater**” item to Color Black with
     a size of 3 **points**.
