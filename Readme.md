@@ -24,7 +24,7 @@
 		- [Join a Table to a Layer](#join-a-table-to-a-layer)
 	- [Print Composer](#print-composer)
 		- [Adding Map Elements](#adding-map-elements)
-- [Exporting Your Map](#exporting-your-map)
+	- [Exporting Your Map](#exporting-your-map)
 
 <!-- /TOC -->
 
@@ -684,7 +684,7 @@ reflected in the Legend*.
     and border width 0.50.
 4.  **Click OK** to add the **neatline**.
 
-# Exporting Your Map
+## Exporting Your Map
 
 1.  **Save your Map Composer**.
 2.  **Click** on the **Export as Image Button.**
